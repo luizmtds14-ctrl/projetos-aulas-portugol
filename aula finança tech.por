@@ -9,7 +9,7 @@ programa {
     escreva(nome, ' ',"quanto você pretende gastar em um nome setup?","\n")
     leia(pretende)
         calculo = saldo - pretende
-      restante= calculo
+      restante= pretende - saldo
       se (pretende>saldo){
         escreva(nome, ' ', "compra negada!Saldo insuficiente, faltam", ' ',"R$", restante, ' ', "para completar","\n")}
        senao
