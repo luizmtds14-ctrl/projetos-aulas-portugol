@@ -23,8 +23,14 @@ programa {
             escreva("O que o senhor desejaria?","\n") 
             escreva("1-ver o extrato completo","\n") 
             escreva("2-sair do app","\n")
-            leia (resposta)
-
+           leia(resposta)
+            escolha(resposta){
+              caso 1:
+              escreva(restante)
+              pare
+              caso 2:
+              escreva("tchau,tchau")
+              pare
     
   }
 }
