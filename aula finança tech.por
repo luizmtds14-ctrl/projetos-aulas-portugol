@@ -12,13 +12,13 @@ programa {
       restante= pretende - saldo
       se (pretende>saldo){
         escreva(nome, ' ', "compra negada!Saldo insuficiente, faltam", ' ',"R$", restante, ' ', "para completar","\n")}
-       senao
-          escreva("compra aprovada! Seu novo saldo é",' ' ,"R$",restante ,"\n")
+       senao se:{
+          escreva("compra aprovada! Seu novo saldo é",' ' ,"R$",restante ,"\n")}
           se(restante>=1000){
             escreva("status: rico XD","\n")}
-          senao se(restante>=0){
+          senao se:(restante>=0){
             escreva("status:ta pago! mas economize","\n")}
-          senao {
+          senao se:{
             escreva("status no limite","\n")}
             escreva("O que o senhor desejaria?","\n") 
             escreva("1-ver o extrato completo","\n") 
