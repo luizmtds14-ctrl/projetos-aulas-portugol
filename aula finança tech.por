@@ -32,6 +32,8 @@ programa {
             caso 2:
               escreva("tchau,tchau")
               pare
+            caso contrario:
+              escreva("opção inválida)
              
               
             }
