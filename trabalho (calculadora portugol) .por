@@ -20,7 +20,7 @@ programa {
 
   }
   funcao inicio() {
-    escreva("************")
+    escreva("************CALCULADORA************", "\n")
     real resultado, n1, n2
     cadeia operador
 
