@@ -11,7 +11,7 @@ programa {
       escreva("seu extrato é de: ",extrato,"\n")
     }
    funcao emprestimo(real valor){
-        retorne valor=valor*0.05
+        retorne valor*0.05
 }
    funcao sair(cadeia login){
     escreva(" até a proxima ", login)
@@ -39,9 +39,9 @@ programa {
       leia(valor)
       escreva("qual vai ser o numero de parcelas?: ")
       leia( parcela)
-      juros=emprestimo(valor)
+      juros=emprestimo(valor)*parcela
       r=(valor+juros)/parcela
-      escreva(r)
+      escreva("sua simulação ficará ", parcela, " parcelas no valor de: ", r)
       
        
 
