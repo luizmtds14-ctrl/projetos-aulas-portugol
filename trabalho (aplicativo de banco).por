@@ -11,14 +11,14 @@ programa {
       escreva("seu extrato é de: ",extrato,"\n")
     }
    funcao emprestimo(real valor){
-        retorne valor=(valor*0.05)
+        retorne valor=valor*0.05
 }
    funcao sair(cadeia login){
     escreva(" até a proxima ", login)
    }
    funcao inicio() {
 
-    real resposta, valor, parcela, simulacao,r
+    real resposta, valor, parcela, juros,r
     escreva("********APP SUPER BANK**********\n")
     saudacoes("Miguel") // aqui vai exibir a mensagem que esta na função de saudação
     escreva(" 1- saldo\n") 
@@ -39,9 +39,10 @@ programa {
       leia(valor)
       escreva("qual vai ser o numero de parcelas?: ")
       leia( parcela)
-      simulacao= valor*0.05*parcela
-      r=(valor+ simulacao)/parcela
+      juros=emprestimo(valor)
+      r=(valor+juros)/parcela
       escreva(r)
+      
        
 
       pare
