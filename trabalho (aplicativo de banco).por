@@ -39,9 +39,9 @@ programa {
       leia(valor)
       escreva("qual vai ser o numero de parcelas?: ")
       leia( parcela)
-      juros=emprestimo(valor)*parcela
-      r=(valor+juros)/parcela
-      escreva("sua simulação ficará ", parcela, " parcelas no valor de: ", r)
+      juros=emprestimo(valor)*parcela //juro vai receber o valor multiplicado com vc juros mais a parcela 
+      r=(valor+juros)/parcela //r recebe o valor atributo a juros e dividir pelo número de parcelas q o usuário digitou 
+      escreva("sua simulação ficará ", parcela, " parcelas no valor de: ", r) //aqui ele vai mostrar o as parcelas do empréstimo q o usuário pediu
       
        
 
