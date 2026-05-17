@@ -1,16 +1,17 @@
 programa {
-   
+   //ALUNO: Luiz Miguel Rodrigues
+   // turma: DS14-Meta escola
    funcao saudacoes(cadeia login){
       escreva("Bem vindo ", login, "\n")
       escreva("Escolha uma opção SR ",login, "\n" ) //isso é a saudação que vai aparece assim que o usuário entrar
     }
    funcao saldo(real saldo){
-      escreva("o seu valor é de: ",saldo,"\n")
+      escreva("o seu valor é de: ",saldo,"\n") // aqui mostra o saldo
     }
    funcao extrato(real extrato){
-      escreva("seu extrato é de: ",extrato,"\n")
+      escreva("seu extrato é de: ",extrato,"\n") // vai exibir o extrato
     }
-   funcao emprestimo(real valor){
+   funcao emprestimo(real valor){ // aqui é o valor multiplicado pelo juros
         retorne valor*0.05
 }
    funcao sair(cadeia login){
@@ -48,7 +49,9 @@ programa {
       pare
       caso 4:
       sair("miguel")
-      pare
+      pare 
+      caso contrario:
+      escreva("opção inválida")
 
     }
     }
