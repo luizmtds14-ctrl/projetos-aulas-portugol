@@ -1,4 +1,6 @@
 programa {
+//ALUNO: Luiz Miguel Rodrigues
+   // turma: DS14-Meta escola
   funcao real calculadora( real num1, real num2,  cadeia op ){// nessa parte do código indica que se o usuário usar um determinado tipo de operador ele vai executar uma função dada a ele  juntamente com os números declarados 
     se(op == "+"){
       retorne num1 + num2 // aqui ele vai somar
